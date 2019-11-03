@@ -133,26 +133,26 @@ var shapes = {
     ],
     
     outer: [
-        /** @param {Graphics} g */
-        function (g, cell, index) {
-            var m = cell / 5;
-            g.addCircle(m, m, cell - 3 * m);
-        },
-        /** @param {Graphics} g */
-        function (g, cell, index) {
-            var m = cell / 8;
-            g.addCircle(m, m, cell - 4 * m);
-        },
-        /** @param {Graphics} g */
-        function (g, cell, index) {
-            var m = cell / 10;
-            g.addCircle(m, m, cell - 5 * m);
-        },
-        /** @param {Graphics} g */
-        function (g, cell, index) {
-            var m = cell / 6;
-            g.addCircle(m, m, cell - 2 * m);
-        }
+        // /** @param {Graphics} g */
+        // function (g, cell, index) {
+        //     var m = cell / 5;
+        //     g.addCircle(m, m, cell - 3 * m);
+        // },
+        // /** @param {Graphics} g */
+        // function (g, cell, index) {
+        //     var m = cell / 8;
+        //     g.addCircle(m, m, cell - 4 * m);
+        // },
+        // /** @param {Graphics} g */
+        // function (g, cell, index) {
+        //     var m = cell / 10;
+        //     g.addCircle(m, m, cell - 5 * m);
+        // },
+        // /** @param {Graphics} g */
+        // function (g, cell, index) {
+        //     var m = cell / 6;
+        //     g.addCircle(m, m, cell - 2 * m);
+        // }
     ]
 };
 
