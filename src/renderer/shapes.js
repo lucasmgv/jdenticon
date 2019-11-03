@@ -135,15 +135,18 @@ var shapes = {
     outer: [
         /** @param {Graphics} g */
         function (g, cell, index) {
-            g.addTriangle(0, 0, cell, cell, 0);
+            var m = cell / 5;
+            g.addCircle(m, m, cell - 3 * m);
         },
         /** @param {Graphics} g */
         function (g, cell, index) {
-            g.addTriangle(0, cell / 2, cell, cell / 2, 0);
+            var m = cell / 8;
+            g.addCircle(m, m, cell - 4 * m);
         },
         /** @param {Graphics} g */
         function (g, cell, index) {
-            g.addRhombus(0, 0, cell, cell);
+            var m = cell / 10;
+            g.addCircle(m, m, cell - 5 * m);
         },
         /** @param {Graphics} g */
         function (g, cell, index) {
